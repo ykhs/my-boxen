@@ -14,4 +14,8 @@ class people::ykhs::environments {
     value => 'ykhs'
   }
 
+  git::config::global { 'color.ui':
+    value => true
+  }
+
 }
