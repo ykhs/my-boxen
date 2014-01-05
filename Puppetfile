@@ -1,5 +1,5 @@
 # This file manages Puppet module dependencies.
-#
+
 # It works a lot like Bundler. We provide some core modules by
 # default. This ensures at least the ability to construct a basic
 # environment.
@@ -55,3 +55,17 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "osx",               "2.2.2"
+github "keyremap4macbook",  "1.2.1"
+github "macvim_kaoriya",    "1.1.0", :repo => "boxelly/puppet-macvim_kaoriya"
+github "iterm2",            "1.0.6"
+github "dropbox",           "1.2.0"
+github "alfred",            "1.1.7"
+github "divvy",             "1.0.1"
+github "keepassx",          "1.0.0"
+github "skype",             "1.0.8"
+github "chrome",            "1.1.2"
+github "firefox",           "1.1.7"
+github "onyx",              "1.1.1"
+
