@@ -14,6 +14,7 @@ class people::ykhs::applications {
   include firefox
   include onyx
   include imagemagick
+  include heroku
 
   # KeyRemap4MacBook
 

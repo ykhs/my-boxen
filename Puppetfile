@@ -68,4 +68,5 @@ github "skype",             "1.0.8"
 github "chrome",            "1.1.2"
 github "firefox",           "1.1.7"
 github "onyx",              "1.1.1"
+github "heroku",            "2.1.1"
 
