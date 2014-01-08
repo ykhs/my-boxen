@@ -18,4 +18,14 @@ class people::ykhs::environments {
     value => true
   }
 
+  # 日本語ファイル名を表示できるようにする
+  git::config::global { 'core.quotepath':
+    value => false
+  }
+
+  # 日本語ファイル名を扱えるようにする
+  git::config::global { 'core.precomposeunicode':
+    value => true
+  }
+
 }
